@@ -1,0 +1,18 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 45px;
+  color: rgb(11, 11, 19);
+  font-weight: 900;
+}
+
+.greetingUder {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.authUserMenu {
+  display: flex;
+  padding: 10px;
+}

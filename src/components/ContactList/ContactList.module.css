@@ -1,0 +1,27 @@
+.contactList {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactListItem {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+/* .contactListItem :not(last-child) {
+  margin-bottom: 10px;
+} */
+
+/* .contactDeleteBtn:hover {
+  background-color: rgb(238, 131, 131);
+} */
+
+.contactName,
+.contactNumber {
+  padding: 10px 0 0 0;
+}
+
+.deleteBtn {
+  padding: 0;
+}

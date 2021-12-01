@@ -1,0 +1,26 @@
+.auth_list {
+  display: flex;
+  justify-content: center;
+}
+
+.formInput {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 20px;
+  color: rgb(55, 43, 224);
+  font-weight: 600;
+}
+.activeLink {
+  composes: link;
+  color: #ff0000;
+}
+
+.title {
+  font-size: 30px;
+}
