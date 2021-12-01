@@ -27,7 +27,7 @@ const authSlice = createSlice({
     },
     [registerThunk.fulfilled](state, action) {
       if (!action.payload.token) {
-        toast.error("Пользователь с таким Email уже существует");
+        toast.error("User with this Email already exists!!!");
         return;
       }
       return {
