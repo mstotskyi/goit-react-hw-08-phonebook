@@ -11,7 +11,6 @@ export function Home() {
       <ul className={styles.auth_list}>
         <li>
           <NavLink
-            // end="true"
             to="/register"
             className={(navData) =>
               navData.isActive ? styles.activeLink : styles.link
@@ -22,7 +21,6 @@ export function Home() {
         </li>
         <li>
           <NavLink
-            // end="true"
             to="/login"
             className={(navData) =>
               navData.isActive ? styles.activeLink : styles.link

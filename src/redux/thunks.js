@@ -39,10 +39,6 @@ export const loginThunk = createAsyncThunk(
       });
       const data = await response.json();
       console.log(data);
-      // {token:"", email:""}
-      // if (!data.token) {
-      //   return `Error`;
-      // }
 
       return data; //action.payload
     } catch (error) {
@@ -87,6 +83,8 @@ export const userLogoutThunk = createAsyncThunk(
           Authorization: state.auth.token,
         },
       });
+      const data = await response.json(); // {token:"", email:""}
+      return data;
     } catch (err) {
       rejectWithValue({ error: err.message });
     }

@@ -1,6 +1,5 @@
 import { useDispatch } from "react-redux";
 import { userLogoutThunk } from "../../redux/thunks";
-import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import LogoutIcon from "@mui/icons-material/Logout";
 

@@ -12,12 +12,7 @@ export function Navigation() {
   return (
     <div className="container">
       <nav className={styles.nav}>
-        <Link
-          to="/"
-          className={styles.link}
-          // activeClassName={styles.activeLink}
-          // end="true"
-        >
+        <Link to="/" className={styles.link}>
           Phonebook
         </Link>
       </nav>

@@ -37,7 +37,6 @@ export function Login() {
   };
 
   const resetForm = () => {
-    // setName("");
     setEmail("");
     setPassword("");
   };
